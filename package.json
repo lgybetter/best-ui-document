@@ -10,12 +10,15 @@
     "@douku/best-ui": "^0.1.3"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "vuepress": "^1.2.0",
     "vuepress-plugin-container": "^2.1.2"
   },
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
+    "deploy": "gh-pages -d docs/.vuepress/dist",
+    "publish": "npm run build && gh-pages -d docs/.vuepress/dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
