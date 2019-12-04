@@ -1,13 +1,6 @@
 module.exports = {
   title: 'Best UI',
   description: '基于 Vue2.x 框架组件库',
-  // configureWebpack: {
-  //   resolve: {
-  //     alias: {
-  //       '@alias': 'path/to/some/dir'
-  //     }
-  //   }
-  // },
   themeConfig: {
     sidebarDepth: 2,
     lastUpdated: 'Last Updated',
@@ -73,5 +66,5 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
 }

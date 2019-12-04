@@ -1,5 +1,6 @@
 import BestUI from '@douku/best-ui'
 import '@douku/best-ui/lib/theme/index.css'
+import './assets/styles/best-ui-reset.css'
 
 export default ({
   Vue, // VuePress 正在使用的 Vue 构造函数
